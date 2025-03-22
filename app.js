@@ -5,7 +5,9 @@ const { Chess } = require("chess.js");
 const path = require("path");
 const { futimesSync } = require("fs");
 
+const cors = require("cors");
 const app = express();
+app.use(cors());
 
 const server = http.createServer(app);
 const io = socket(server);
