@@ -1,4 +1,4 @@
-const socket = io("https://chess-59sp.onrender.com");
+const socket = io("https://chess-delta-indol.vercel.app/");
 const chess = new Chess();
 const boardElement = document.querySelector(".chessboard");
 
